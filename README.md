@@ -3,8 +3,10 @@
 
 Phonegap plugin for check or launch other application, get extras in phonegap app.
 
-
 Last version 6.1.6
+*  It seems that iOS 18 has completely deprecated the UIApplication.shared.open(url, options: []) method.
+
+Version 6.1.6
 *  Add support java 1.6
 *  Add support java 1.7
 *  Add full support activityForResult, sendBroadcast and RegisterReceiver.
